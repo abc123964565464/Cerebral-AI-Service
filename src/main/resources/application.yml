@@ -12,7 +12,7 @@ spring:
   ai:
     openai:
       base-url: https://api.deepseek.com # DeepSeek的OpenAI式端点
-      api-key: sk-1615604154624113aad8c1295d92839e # DeepSeek的OpenAI式API Key
+      api-key: your api key # DeepSeek的OpenAI式API Key
       chat:
         options:
           model: 'deepseek-reasoner' # 个人可以选择，此处时deepseek-R1模型

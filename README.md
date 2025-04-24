@@ -6,7 +6,7 @@
 
 ## 🌟 项目简介
 
-Cerebral 是一个基于 Spring Boot 和 DeepSeek AI 模型的智能文本生成服务。它提供了一个简洁而强大的 API 接口，支持多场景文本生成，包括技术文档、代码审查、API 文档等多种业务场景。
+Cerebral-AI-Service 是一个基于 Spring Boot 和 DeepSeek AI 模型的智能文本生成服务。它提供了一个简洁而强大的 API 接口，支持多场景文本生成，包括技术文档、代码审查、API 文档等多种业务场景。
 
 ### ✨ 特性亮点
 

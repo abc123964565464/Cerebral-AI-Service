@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Cerebral
+  datasource:
+    url: jdbc:mysql://localhost:3306/deepseek_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  ai:
+    openai:
+      base-url: https://api.deepseek.com # DeepSeek的OpenAI式端点
+      api-key: sk-1615604154624113aad8c1295d92839e # DeepSeek的OpenAI式API Key
+      chat:
+        options:
+          model: 'deepseek-reasoner' # 个人可以选择，此处时deepseek-R1模型

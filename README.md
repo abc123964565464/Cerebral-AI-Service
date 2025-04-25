@@ -25,6 +25,7 @@ Cerebral-AI-Service 是一个基于 Spring Boot 和 DeepSeek AI 模型的智能�
 - Project Lombok
 - Spring Validation
 - Reactive Streams
+- springdoc-openapi
 
 ## 🚀 快速开始
 
@@ -113,6 +114,7 @@ Content-Type: application/json
 
 ```
 src/main/java/com/javalearning/cerebral/
+├── config/          # 配置文件
 ├── constant/        # 常量模板
 ├── controller/      # 控制器
 ├── dto/      
